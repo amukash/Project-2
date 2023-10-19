@@ -1,5 +1,5 @@
 body {
-    background-image: url('/media/background3.avif') ;
+    background-image: '/media/background3.avif';
     background-size: cover;
 }
 header {
