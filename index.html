@@ -3,24 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Major+Mono+Display&family=Young+Serif&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Homepage</a></li>
+      <nav id="main-navbar">
+        <ul id="navbar-container">
+          <li id="onpage"><a href="index.html">Homepage</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="cars.html">Cars</a></li>
         </ul>
       </nav>
     </header>
-    <h1>Welcome Page!</h1>
+    <h1 id="heading">Welcome Page!</h1>
     <h2>Tell me about yourself</h2>
 
     <form>
-      <fieldset>
-        <legend>Information</legend>
+      <fieldset id="information">
+        <legend id="info">Information</legend>
         <div>
           <label>First Name: <input size="100" type="text" name="first_name_field"></label>
         </div>
@@ -49,7 +52,7 @@
           <option>65 and over</option>
         </select>
       </fieldset>
-      <fieldset>
+      <fieldset id="survey">
         <label>What is the name of your school? </label>
         <div>
           <textarea name="comments_field"></textarea>
@@ -67,7 +70,7 @@
           <textarea name="comments_field"></textarea>
         </div>
       </fieldset>
-      <button type="submit">Submit</button>
+      <button id="submit">Submit</button>
     </form>
   </body>
 </html>
