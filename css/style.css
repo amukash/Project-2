@@ -8,11 +8,6 @@ header {
     text-align: center;
     border-radius: 1em;
     box-shadow: 10px 10px 20px rgba(19, 13, 2, 0.826), -10px -10px 20px rgba(76, 49, 8, 0.828), 0 0 20px rgba(111, 73, 12, 0.712);
-    transition: transform 0.5s ease;
-}
-
-header :hover {
-    transform: scae(1.01);
 }
 
 #main-navbar ul {
