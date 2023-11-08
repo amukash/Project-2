@@ -9,6 +9,7 @@
  */
 
 html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -37,9 +38,18 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
+ header {
+    padding: 1.3%;
+ }
+
 h1 {
+    padding: 1.5%;
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 5%;
+}
+
+h2 {
+    margin: 2%;
 }
 
 /* Grouping content
